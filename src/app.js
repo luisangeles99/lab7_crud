@@ -11,5 +11,5 @@ app.use(router)
 
 
 app.listen(port, function(){
-    console.log('Server UP on port:', port)
+    console.log('Server UP')
 })
