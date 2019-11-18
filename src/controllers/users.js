@@ -59,7 +59,7 @@ const deleteUser = function(req,res){
     })
 }
 
-const redirect = function(){
+const redirect = function(req,res){
     res.send({
         info: "https://lab7-a01273884.herokuapp.com/",
         GET: "/persons"
