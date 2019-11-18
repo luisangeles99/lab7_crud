@@ -60,32 +60,10 @@ const deleteUser = function(req,res){
 }
 
 const redirect = function(){
-    res.send(
-        {
-            "fifanumber": "00012",
-            "name": "Cristiano Ronaldo",
-            "equipo":{
-                "nombre": "Juventus FC",
-                "pais": "Italia",
-                "liga": "Serie A"
-            },
-            "age": 34,
-            "nacido": 1985,
-            "nacionalidad":{
-                "pais":"Portugal",
-                "ciudad": "Lisboa"
-            },
-            "fisico":{
-                "estatura": 1.85,
-                "peso": 80,
-                "pie_dominante": "Derecha",
-                "cirugias": "NA"
-            },
-            "debut": "Sporting de Lisboa",
-            "apodos":[
-                "CR7", "El Bicho", "SuperFly", "Terminator"
-            ]
-        })
+    res.send({
+        info: "https://lab7-a01273884.herokuapp.com/",
+        GET: "/persons"
+    })
 }
 
 
